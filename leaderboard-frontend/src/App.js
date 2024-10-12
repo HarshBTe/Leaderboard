@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';  // Import the custom CSS
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://leaderboard-backend-1pxq.onrender.com';
 
 function App() {
   const [users, setUsers] = useState([]);
